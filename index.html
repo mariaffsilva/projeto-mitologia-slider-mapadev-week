@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mitologia Grega Slider</title>
+
+    <link
+      rel="shortcut icon"
+      href="src/imagens/omega.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <link rel="stylesheet" href="src/css/estilos.css" />
+
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img src="src/imagens/omega.png" alt="panteão grego" class="panteao" />
+      <h1 class="titulo">Mitologia Grega</h1>
+    </header>
+
+    <main class="deuses-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-deuses">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Afrodite</h2>
+            <p class="vida">HP 423</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>31</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>283</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Tão maravilhosa é ao olhar que pode, em instantes, inspirar
+              lágrimas, desejo, ciúmes e amor. Entretanto, sob sua fachada de
+              perfeição está um coração sobrecarregado de insegurança.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Apolo</h2>
+            <p class="vida">HP 527</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>43</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>265</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Ele é impulsivo, arrogante e intrépido, com o poder de trazer
+              esperança aos desesperados e mudar o curso da batalha com uma
+              única flecha.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Aracne</h2>
+            <p class="vida">HP 534</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>41</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>251</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Ela já foi uma bela e talentosa tecelã de tecidos e panos, mas um
+              único erro de orgulho transformou Aracne em um monstro pela
+              eternidade.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-4">
+          <div class="informacoes">
+            <h2 class="nome">Ares</h2>
+            <p class="vida">HP 575</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>40</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>237</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Temido por seus inimigos, rejeitado por seu pai, admirado pela
+              Deusa da Beleza e adorado por guerreiros, Ares, uma alma solitária
+              e torturada, é o Deus Grego da Guerra sedento por sangue.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-5">
+          <div class="informacoes">
+            <h2 class="nome">Artemis</h2>
+            <p class="vida">HP 522</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>38</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>240</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Armada com um arco mágico, Ártemis é a inigualável Deusa da Caça!
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-6">
+          <div class="informacoes">
+            <h2 class="nome">Atena</h2>
+            <p class="vida">HP 600</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>37</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>224</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Atena, a Deusa da Sabedoria, é patrona daqueles que lutam com
+              dignidade e apenas quando não há outra alternativa.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-7">
+          <div class="informacoes">
+            <h2 class="nome">Chronos</h2>
+            <p class="vida">HP 440</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>37</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>282</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Detentor do relógio da eternidade, margeado com os símbolos do
+              Zodíaco, o Deus do Tempo, Chronos conta cada tique dos ponteiros,
+              impedindo todos de interferir com inexorável movimento para
+              frente.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-8">
+          <div class="informacoes">
+            <h2 class="nome">Cila</h2>
+            <p class="vida">HP 421</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>36</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>354</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Horror das Profundezas. Nenhum navio que ousa navegar por suas
+              águas escapa ileso. Dizem que sua gargalhada é a parte mais
+              horrível: infantil, deleitando-se com as mortes sangrentas
+              enquanto homens são tragados pelo abismo negro.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-9">
+          <div class="informacoes">
+            <h2 class="nome">Hades</h2>
+            <p class="vida">HP 570</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>33</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>318</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Inevitavelmente, a morte envia todos a Hades, o Deus do Submundo.
+              No fim das contas, ele sempre consegue o que quer.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-10">
+          <div class="informacoes">
+            <h2 class="nome">Hera</h2>
+            <p class="vida">HP 623</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>30</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>220</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Vem acompanhada pelo seu leal parceiro Argo que esmaga os seus
+              adversários. Ao convocá-lo, Hera pode comandar Argo na batalha,
+              levando-o a atacar deuses inimigos específicos ou trazendo-o para
+              seu lado para protegê-la daqueles que ousarem se aproximar dela.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-11">
+          <div class="informacoes">
+            <h2 class="nome">Medusa</h2>
+            <p class="vida">HP 624</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>44</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>288</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Esconde suas terríveis feições atrás de uma máscara cruel de
+              porcelana. Seus olhos queimam com o ódio que ela sente por dentro.
+              Ela quer destruir tudo que há de maravilhoso e bonito no mundo.
+              Talvez, assim, ela se torne o mais belo monstro de todos.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-12">
+          <div class="informacoes">
+            <h2 class="nome">Nêmesis</h2>
+            <p class="vida">HP 546</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>43</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>248</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Não mais os atos imundos engendrarão sucesso, riquezas não serão
+              acumuladas em mãos que não as merecem, nenhuma lenda falsamente
+              conquistada será cantada. Nêmesis vai desferir uma onda de
+              castigo.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-13">
+          <div class="informacoes">
+            <h2 class="nome">Poseidon</h2>
+            <p class="vida">HP 447</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>37</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>285</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Carrancudo Deus das profundezas busca saciar sua ira sedenta e
+              mergulhar o mundo inteiro sob seus mares bravios.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-14">
+          <div class="informacoes">
+            <h2 class="nome">Quíron</h2>
+            <p class="vida">HP 535</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>38</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>265</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              É um ser em conflito consigo mesmo. Um centauro, com o torso de um
+              homem unido ao corpo de um cavalo. Os centauros são criaturas
+              brutais, cruéis e violentas, sem um pingo de civilidade. Quíron,
+              entretanto, é um sábio, poeta, astrólogo e professor.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-15">
+          <div class="informacoes">
+            <h2 class="nome">Zeus</h2>
+            <p class="vida">HP 451</p>
+          </div>
+
+          <div class="descricao">
+            <div class="dano">
+              <img src="src/imagens/espada1.png" alt="" class="espada" />
+              <p>36</p>
+            </div>
+            <div class="mana">
+              <img src="src/imagens/mana1.png" alt="" class="imagem-mana" />
+              <p>289</p>
+            </div>
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Rei dos Deuses, Zeus busca imparcialidade e justiça, mas não
+              hesita em invocar o trovão quando há punições divinas a serem
+              feitas!
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
